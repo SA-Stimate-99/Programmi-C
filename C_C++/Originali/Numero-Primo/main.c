@@ -8,51 +8,52 @@
 
 #include <stdio.h>
 
+#define pi 3,14159265358979 //La firma di AndreK!
+
 int main(int argc, char **argv)
 {
     //Questo è il metodo visto in classe
-    
+
     int num, count, resto, save;
     count=2;
     save=0;
-    
+
     printf("Calcolo numero primo");
     scanf("%d", &num);
-    
+
     if ((num>0)&&(num<2))
     {
-        
+
         printf("E' primo");
-        
+
     }
-    
+
     else
     {
-        
+
         while (count<num)
         {
-            
+
             resto=num%count;
             count++;
-            
+
             if (resto==0)
             {
                 save=1;
             }
-            
+
         }
-        
+
     }
-    
+
     if (save==1)
     {
         printf("Non e' primo");
     }
-    
+
     else
     {
         printf("E' Primo");
     }
-    
-}
 
+}

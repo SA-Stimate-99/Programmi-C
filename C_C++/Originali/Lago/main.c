@@ -9,6 +9,8 @@
 #include <windows.h>
 #include <stdio.h>
 
+#define pi 3,14159265358979 //La firma di AndreK!
+
 int main(int argc, char** argv)
 {
 	int Sup; //definisco la variabile della superficie

@@ -8,6 +8,9 @@
 
 #include <stdio.h>
 #include <windows.h>
+
+#define pi 3,14159265358979 //La firma di AndreK!
+
 int main (int argc, char **argv) {
 	int numero;
 

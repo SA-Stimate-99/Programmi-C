@@ -1,3 +1,11 @@
+//
+//  main.c
+//  Lago
+//
+//  Created by Andrea Cussolotto on 28/05/14.
+//  CC-BY-SA 2014 Andrea Cussolotto. Few or no rights reserved.
+//
+
 #include <windows.h>
 #include <stdio.h>
 
@@ -11,9 +19,9 @@ int main(int argc, char** argv)
 	scanf ("%d", &Sup);
 	printf ("Inserisci il numero dei giorni");
 	scanf ("%d", G);
-	while (Count <= G) 
+	while (Count <= G)
 {
-		S=S*2;
+		S=S*2; //Calcolo
 		Count=Count+1;
 		while (K<=S)
 		{

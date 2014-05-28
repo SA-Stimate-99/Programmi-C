@@ -1,7 +1,16 @@
+//
+//  main.c
+//  Potenza
+//
+//  Created by Andrea Cussolotto on 28/05/14.
+//  CC-BY-SA 2014 Andrea Cussolotto. Few or no rights reserved.
+//
+
 #include <stdio.h>
 
-int potenza_main (int argc, char** argv) {
-	int B;
+int main (int argc, char** argv)
+{
+	int B; //Definisco le variabili
 	int E;
 	int C;
 	printf ("Scrivi la base");
@@ -12,7 +21,7 @@ int potenza_main (int argc, char** argv) {
 	if (E>=0){
 
 		while (E>0) {
-			C=C*B;
+			C=C*B; //Calcolo
 			E=E-1;
 		}
 	}
